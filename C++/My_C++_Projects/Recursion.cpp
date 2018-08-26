@@ -1,0 +1,33 @@
+
+//a function which calls itself is known as RECURSIVE FUNCTION
+
+
+#include <iostream>
+using namespace std;
+
+
+
+
+
+int factorial(int n){
+
+
+    if(n==1){
+        return 1;
+    }
+    else {
+        return n*factorial(n-1);
+    }
+}
+
+
+
+int main()
+{
+int a;
+cout<<"Enter the number"<<endl;
+cin>>a;
+int b=factorial(a);
+cout <<b<<endl;
+
+}
